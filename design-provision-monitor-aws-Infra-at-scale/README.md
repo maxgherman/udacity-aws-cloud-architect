@@ -8,63 +8,63 @@ In this project, you will plan, design, provision, and monitor infrastructure in
 
 You have been asked to plan and provision a cost-effective AWS infrastructure for a new social media application development project for 50,000 single-region users. The project requires the following AWS infrastructure and services. Please include your name and label all elements of the infrastructure on the diagram.
 
-<answer>
+<details>
 
 [Infrastructure diagram](./Udacity_Diagram_1.pdf)
 
-</answer>
+</details>
 
 You have been asked to plan a SERVERLESS architecture schematic for a new application development project.
 
-<answer>
+<details>
 
 [Infrastructure diagram](./Udacity_Diagram_2.pdf)
 
-</answer>
+</details>
 
 ### Task 2: Calculate Infrastructure Costs
 
 Use the AWS Pricing Calculator to estimate how much it will cost to run the services in your diagram for one month.
 
-<answer>
+<details>
 
 [Initial Cost Estimate](./Initial_Cost_Estimate.csv)
 
-</answer>
+</details>
 
 Your budget has been reduced
 
-<answer>
+<details>
 
 [Reduced Cost Estimate](./Reduced_Cost_Estimate.csv)
 
-<answer>
+<details>
 
 Your budget has been increased
 
-<answer>
+<details>
 
 [Increased_Cost Estimate](./Increased_Cost_Estimate.csv)
 
-</answer>
+</details>
 
 ### Task 3: Configure Permissions
 
-<answer>
+<details>
 
 ![Password Policy](./udacity_password_policy.png)
 
 [CloudTrail Log](./UdacityCloudTrailLog.csv)
 
-</answer>
+</details>
 
 ### Task 4: Set up Cost Monitoring
 
-<answer>
+<details>
 
 ![CloudWatch Alarm](./CloudWatch_alarm.png)
 
-</answer>
+</details>
 
 ### Task 5 : Use Terraform to Provision AWS Infrastructure
 
@@ -82,13 +82,13 @@ Your budget has been increased
 5. Use Terraform to  delete the 2 m4.large instances
 6. Take an updated screenshot of the AWS console showing only the 4 t2.micro instances and save it as `Terraform_1_2`
 
-<answer>
+<details>
 
 ![Terraform_1_1](./Terraform_1_1.png)
 
 ![Terraform_1_2](./Terraform_1_2.png)
 
-</answer>
+</details>
 
 #### Exercise 2
 
@@ -102,7 +102,7 @@ Your budget has been increased
 2. Take a screenshot of the EC2 instances page
 3. Take a screenshot of the VPC page
 
-<answer>
+<details>
 
 ![Terraform_2_1](./Terraform_2_1.png)
 
@@ -110,12 +110,12 @@ Your budget has been increased
 
 ![Terraform_2_3](./Terraform_2_3.png)
 
-</answer>
+</details>
 
 ### Task 6: Destroy the Infrastructure using Terraform
 
-<answer>
+<details>
 
 ![Terraform destroyed](./Terraform_destroyed.png)
 
-</answer>
+</details>
