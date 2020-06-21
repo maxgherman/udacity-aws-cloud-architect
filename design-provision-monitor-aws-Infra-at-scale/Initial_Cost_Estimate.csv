@@ -1,0 +1,12 @@
+Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+US East (Ohio),Amazon EC2,0,382.42,4589.04,USD,"Operating system (Linux), Quantity (6), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (t3.large)"
+US East (Ohio),Amazon EC2,0,390.3,4683.6,USD,"Operating system (Linux), Quantity (6), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (c5.large)"
+US East (Ohio),Amazon RDS for PostgreSQL,0,2102.04,25224.48,USD,"Quantity (1), Storage volume (General Purpose SSD (gp2)), Storage amount (100 GB per month), Instance type (db.m5.4xlarge)"
+US East (Ohio),Amazon Route 53,0,2673,32076,USD,"Hosted Zones (1), Basic Checks Within AWS (100), Number of Elastic Network Interfaces (10)"
+US East (Ohio),S3 Standard,0,63.05,756.6,USD,S3 Standard storage (1000 GB per month)
+US East (Ohio),Amazon Virtual Private Cloud (VPC),0,482.85,5794.2,USD,Number of NAT Gateways (1)
+US East (Ohio),Elastic Load Balancing,0,1184.43,14213.16,USD,Number of Application Load Balancers (1)
+US East (Ohio),Elastic Load Balancing,0,1330.43,15965.16,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (200 GB per hour), Processed bytes per NLB for TLS (100 GB per hour), Average number of new TLS connections (10 per second), Average TLS connection duration (30 seconds)"
+US East (Ohio),Amazon CloudWatch,0,190.09,2281.08,USD,
+,,,,,,
+Total,,,8798.61,,,

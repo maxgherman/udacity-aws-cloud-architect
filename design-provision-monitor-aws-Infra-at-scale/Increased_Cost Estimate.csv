@@ -1,0 +1,24 @@
+Region,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+US East (Ohio),Amazon EC2,0,1242.22,14906.64,USD,"Operating system (Linux), Quantity (8), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (30 GB), Instance type (t3.2xlarge)"
+US East (Ohio),Amazon EC2,0,1289.76,15477.12,USD,"Operating system (Linux), Quantity (8), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (50 GB), Instance type (c5.2xlarge)"
+US East (Ohio),Amazon RDS for PostgreSQL,0,5601.92,67223.04,USD,"Quantity (2), Storage volume (General Purpose SSD (gp2)), Storage amount (1 TB per month), Instance type (db.m5.4xlarge), Additional backup storage (10 TB)"
+US East (Ohio),Amazon Route 53,0,2375.5,28506,USD,"Hosted Zones (1), Basic Checks Within AWS (50), Number of Elastic Network Interfaces (10)"
+US East (Ohio),S3 Standard,0,63.05,756.6,USD,S3 Standard storage (1000 GB per month)
+US East (Ohio),Amazon Virtual Private Cloud (VPC),0,2765.7,33188.4,USD,Number of NAT Gateways (2)
+US East (Ohio),Elastic Load Balancing,0,1184.43,14213.16,USD,Number of Application Load Balancers (1)
+US East (Ohio),Elastic Load Balancing,0,1768.43,21221.16,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (200 GB per hour), Processed bytes per NLB for TLS (200 GB per hour), Average number of new TLS connections (10 per second), Average TLS connection duration (30 seconds)"
+US East (Ohio),Amazon CloudWatch,0,3250.9,39010.8,USD,
+US East (Ohio),AWS Web Application Firewall (WAF),0,240,2880,USD,"Number of Web Access Control Lists (Web ACLs) utilized (10 per month), Number of Rules added per Web ACL (10 per month), Number of Rule Groups per Web ACL (10 per month), Number of Rules inside each Rule Group (10 per month), Number of Managed Rule Groups (10 per month)"
+,,,,,,
+,,,,,,
+Total,,,19781.91,,,
+,,,,,,
+,,,,,,
+,,,EC2- increased number of instances from total 6 to 8 for the Web Servers and 6 to 8 for the Application Servers,,,
+,,,RDS - increased number of instances from 1 to 2. One master per availability zone,,,
+,,,Route 53 - increased number of Elastic Network Instances from 5 to 10,,,
+,,,VPC - increased number of NAT Gateways from 1 to 2. One per availability zone,,,
+,,,Application Load Balancer - increased number of processed GB per month (EC2 and IP),,,
+,,,Network Load Balancer - increased number of processed GB per month (NLB for TCP),,,
+,,,CouldWatch - increased number of logs and metrics,,,
+,,,Web Application Firewall- introduced web application firewall,,,

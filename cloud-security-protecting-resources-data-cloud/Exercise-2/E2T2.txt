@@ -1,0 +1,22 @@
+Research and analyze which of the vulnerabilities appear to be related to the code that was deployed for the environment in this project.
+
+[CIS.4.1] Ensure no security groups allow ingress from 0.0.0.0/0 to port 22
+[CIS.2.9] Ensure VPC flow logging is enabled in all VPCs
+[CIS.4.2] Ensure no security groups allow ingress from 0.0.0.0/0 to port 3389
+UDP port 23 which is associated with 'Telnet' is reachable from the internet
+TCP port 23 which is associated with 'Telnet' is reachable from the internet
+UDP port 21 which is associated with 'FTP' is reachable from the internet
+TCP port 21 which is associated with 'FTP' is reachable from the internet
+TCP port 20 which is associated with 'FTP' is reachable from the internet
+UDP port 20 which is associated with 'FTP' is reachable from the internet
+S3.4 S3 buckets should have server-side encryption enabled
+securityhub-encrypted-volumes-98327f39 (EC2 volumes are not encrypted)
+
+Bonus - provide recommendations on how to remediate the vulnerabilities.
+
+Provide specific IP address range for security groups ingress on port 22
+Enable VPC flow logging
+Remove unrestricted access to port 3389
+Remove access to all the mentioned ports reachable from the internet
+Encrypt s3 buckets
+Encrypt EC2 volumes
