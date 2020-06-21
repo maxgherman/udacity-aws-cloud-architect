@@ -9,6 +9,7 @@ In this project, you will plan, design, provision, and monitor infrastructure in
 You have been asked to plan and provision a cost-effective AWS infrastructure for a new social media application development project for 50,000 single-region users. The project requires the following AWS infrastructure and services. Please include your name and label all elements of the infrastructure on the diagram.
 
 <details>
+<summary>Answer</summary>
 
 [Infrastructure diagram](./Udacity_Diagram_1.pdf)
 
@@ -17,6 +18,7 @@ You have been asked to plan and provision a cost-effective AWS infrastructure fo
 You have been asked to plan a SERVERLESS architecture schematic for a new application development project.
 
 <details>
+<summary>Answer</summary>
 
 [Infrastructure diagram](./Udacity_Diagram_2.pdf)
 
@@ -27,6 +29,7 @@ You have been asked to plan a SERVERLESS architecture schematic for a new applic
 Use the AWS Pricing Calculator to estimate how much it will cost to run the services in your diagram for one month.
 
 <details>
+<summary>Answer</summary>
 
 [Initial Cost Estimate](./Initial_Cost_Estimate.csv)
 
@@ -35,14 +38,16 @@ Use the AWS Pricing Calculator to estimate how much it will cost to run the serv
 Your budget has been reduced
 
 <details>
+<summary>Answer</summary>
 
 [Reduced Cost Estimate](./Reduced_Cost_Estimate.csv)
 
-<details>
+</details>
 
 Your budget has been increased
 
 <details>
+<summary>Answer</summary>
 
 [Increased_Cost Estimate](./Increased_Cost_Estimate.csv)
 
@@ -51,6 +56,7 @@ Your budget has been increased
 ### Task 3: Configure Permissions
 
 <details>
+<summary>Answer</summary>
 
 ![Password Policy](./udacity_password_policy.png)
 
@@ -61,6 +67,7 @@ Your budget has been increased
 ### Task 4: Set up Cost Monitoring
 
 <details>
+<summary>Answer</summary>
 
 ![CloudWatch Alarm](./CloudWatch_alarm.png)
 
@@ -83,6 +90,7 @@ Your budget has been increased
 6. Take an updated screenshot of the AWS console showing only the 4 t2.micro instances and save it as `Terraform_1_2`
 
 <details>
+<summary>Answer</summary>
 
 ![Terraform_1_1](./Terraform_1_1.png)
 
@@ -103,6 +111,7 @@ Your budget has been increased
 3. Take a screenshot of the VPC page
 
 <details>
+<summary>Answer</summary>
 
 ![Terraform_2_1](./Terraform_2_1.png)
 
@@ -115,6 +124,7 @@ Your budget has been increased
 ### Task 6: Destroy the Infrastructure using Terraform
 
 <details>
+<summary>Answer</summary>
 
 ![Terraform destroyed](./Terraform_destroyed.png)
 
