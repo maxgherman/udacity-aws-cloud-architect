@@ -8,3 +8,8 @@ Play a critical role in an organization’s cloud computing strategy as an AWS C
 - [Data durability and recovery](./recoverability-In-aws)
 - [Design, Provision and Monitor AWS Infrastructure at Scale](./design-provision-monitor-aws-Infra-at-scale)
 - [Cloud Security - Protecting Resources and Data in the Cloud](./cloud-security-protecting-resources-data-cloud)
+
+
+### Certificate
+
+- [View](https://confirm.udacity.com/WDJDDNMM)
